@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(247, 246, 246);
+}
+h1 span {
+    background-color: rgb(237, 249, 4);
+}
+
+h1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: #0606f9;
+  }
+  #case{
+      height: 37px;
+      width: 200px;
+      border: 2px solid #069b3a;
+      border-radius: 10px;
+  }
+
+  .number{
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      color: white;
+      border: 2px solid #2D882D;
+      border-radius: 10px;
+      background-color: #5FAE5F;
+  }
+  .number:hover {
+    background-color: #04ff04;
+  }
+
+  .operator{
+      height: 50px;
+      width: 50px;
+      font-size: 25px;
+      color: white;
+      border: 2px solid #5FAE5F;
+      border-radius: 10px;
+      background-color: #9FD29F;
+  }
+  .operator:hover{
+      background-color: #0C620C;
+  }
+
+  .cal{
+    background-image: url(tableau.jpg);
+    height: 500px;
+    width: 640px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(228, 18, 18);
+    font-size: 100px;
+
+}
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<center>
+      <h1><span>Calculatrice JuniorAssad </span><h1>
+        
+
+<table>
+        <tr>
+          <td colspan="4" align="right" id="case">
+            <span id="calc-output"></span>
+           
+          </td>
+        </tr>
+</table>
+
+
+<table>
+       <tr>
+         <td>
+           <input class="number" type="button" value="1" id="button-1" onclick="btn(1)"/>
+         </td>
+         <td>
+           <input class="number" type="button" value="2" id="button-2" onclick="btn(2)"/>
+         </td>
+         <td>
+           <input class="number" type="button" value="3" id="button-3" onclick="btn(3)"/>
+         </td>
+         <td>
+           <input class="operator" type="button" value="C" id="button-C" onclick="btnClean()"/>
+         </td>
+       </tr>
+
+       <tr>
+         <td>
+           <input class="number" type="button" value="4" id="button-4" onclick="btn(4)"/>
+         </td>
+         <td>
+           <input class="number" type="button" value="5" id="button-5" onclick="btn(5)"/>
+         </td>
+         <td>
+           <input class="number" type="button" value="6" id="button-6" onclick="btn(6)"/>
+         </td>
+         <td>
+           <input class="operator" type="button" value="+" id="button-+" onclick="btnPlus()"/>
+         </td>
+       </tr>
+
+       <tr>
+         <td>
+           <input class="number" type="button" value="7" id="button-7" onclick="btn(7)"/>
+         </td>
+         <td>
+           <input class="number" type="button" value="8" id="button-8" onclick="btn(8)"/>
+         </td>
+         <td>
+           <input class="number" type="button" value="9" id="button-9" onclick="btn(9)"/>
+         </td>
+         <td>
+           <input class="operator" type="button" value="-" id="button--" onclick="btnLess()"/>
+         </td>
+       </tr>
+
+       <tr>
+         <td>
+           <input class="operator" type="button" value="x" id="button-*" onclick="btnMultiply()"/>
+         </td>
+         <td>
+           <input class="number"type="button" value="0" id="button-0" onclick="btn(0)"/>
+         </td>
+         <td>
+           <input class="operator" type="button" value="÷" id="button-/" onclick="btnDivision()"/>
+         </td>
+         <td>
+           <input class="operator" type="button" value="=" id="button-=" onclick="btnEgal()"/>
+         </td>
+       </tr>
+</table>
+</center>
+
+<center>
+    <div class="cal" >
+       <p id="resultat">  Résultat </p>
+   </div>
+</center>
+
+ <script  src="./script.js"></script>
+
+</body>
+</html>
